@@ -1,9 +1,6 @@
 .gallery {
-list-style-type: none;
-display: flex;
-flex-wrap: wrap;
-gap: 24px;
-}
-.gallery-item {
-flex-basis: calc((100% - 2 * 24px) / 3);
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    gap: 24px;
 }
